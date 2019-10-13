@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" autoUpload="Always" serverName="zhangqilong@121.48.165.6:12315">
+    <serverData>
+      <paths name="zhangqilong@121.48.165.6:12315">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/hhd/zhangqilong/mycode" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myAutoUpload" value="ALWAYS" />
+  </component>
+</project>
