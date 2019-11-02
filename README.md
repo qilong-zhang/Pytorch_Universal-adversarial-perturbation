@@ -9,7 +9,7 @@ A PyTorch implementation of universal attack. Refer to the original [*tensorflow
 
 ### Get started
 
-To get started, you should first Change the file path to yours
+To get started, you should first Change the file path to yours. For example
 ```python
 X = ImagetNet('../universal_attack/data/ILSVRC2012_train/pick_image/', 1000, 10, transforms = transform)
 ```
