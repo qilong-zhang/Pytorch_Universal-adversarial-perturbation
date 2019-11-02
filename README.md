@@ -18,7 +18,7 @@ Such as if your path is "universal_attack/data/", then you should write
 X = ImagetNet('universal_attack/data/', 1000, 10, transforms = transform)
 ```
 
-Then you can run the following demo code
+After you modify all the path, then you can run the following demo code
 ```
 python search.py
 ```
