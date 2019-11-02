@@ -121,7 +121,7 @@ def universal_perturbation(dataset,
     return v
 
 
-net = models.googlenet(pretrained=True).eval().cuda()
+net = models.resnet50(pretrained=True).eval().cuda()
 mean = [ 0.485, 0.456, 0.406 ]
 std = [ 1.0,1.0, 1.0]
 # std=[0.229, 0.224, 0.225]
