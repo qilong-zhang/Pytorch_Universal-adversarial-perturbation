@@ -34,7 +34,7 @@ python search.py
 
 ### Result
 
-I tested our code for `googlenet` , and at $$\epsilon=10$$, our accuracy on the validation set was ~78%.  It is similar with the result report in paper.
+I tested our code for `googlenet` , and at `\epsilon=10`, our accuracy on the validation set was ~78%.  It is similar with the result report in paper.
 
 ![paper_result](paper_result.png)
 
