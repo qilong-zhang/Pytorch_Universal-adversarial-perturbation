@@ -12,9 +12,9 @@ A PyTorch implementation of universal adversarial perturbation which is more eas
 
 All you need to do is unzip the downloaded file, and the results are as follows:
 
-![TIM截图20200514093942](C:\Users\MSI\Desktop\TIM截图20200514093942.png)
+![data list](C:\Users\MSI\Desktop\Pytorch_Universal-attack\data list.png)
 
-![TIM截图20200514093955](C:\Users\MSI\Desktop\TIM截图20200514093955.png)
+![img list](C:\Users\MSI\Desktop\Pytorch_Universal-attack\img list.png)
 
 ### Get started
 
@@ -36,7 +36,7 @@ python search.py
 
 I tested our code for `googlenet` , and at $\epsilon=10$, our accuracy on the validation set was ~78%.  It is similar with the result report in paper.
 
-![TIM截图20200514095507](C:\Users\MSI\Desktop\TIM截图20200514095507.png)
+![paper result](C:\Users\MSI\Desktop\Pytorch_Universal-attack\paper result.png)
 
 ## Reference
 
