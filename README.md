@@ -1,6 +1,6 @@
 # Python
 
-A PyTorch implementation of universal adversarial perturbation which is more easy to understand and implement. Refer to the original [*tensorflow code*](https://github.com/LTS4/universal). <br>
+A PyTorch implementation of universal adversarial perturbation which is more easy to understand and implement. <br>Refer to the original [*tensorflow code*](https://github.com/LTS4/universal). <br>
 
 
 
