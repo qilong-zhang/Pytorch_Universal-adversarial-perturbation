@@ -22,11 +22,11 @@ To get started, you should first Change the training data file path to yours. Fo
 ```python
 X = ImagetNet('../data/ILSVRC2012_train/pick_image/', 1000, 10, transforms = transform)
 ```
-If your test data path is `testing_data_path`, then you should write
+If your testing data path is `testing_data_path`, then you should write
 ```python
 val_loader = torch.utils.data.DataLoader(ImageFolder(testing_data_path, transforms = transform)
 ```
-It should be noted that we use two different ways to input our data (i.e., X and val_loader), The main reason I didn't make it consistent is because I wanted to show you a variety of ways to write it.
+It should be noted that I use two different ways to input our data (i.e., X and val_loader), The main reason I didn't make it consistent is because I wanted to show you a variety of ways to write it. Hope it doesn't bother you.
 
 After you modify all the path, then you can run the following demo code
 ```
