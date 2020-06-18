@@ -26,7 +26,7 @@ If your testing data path is `testing_data_path`, then you should write
 ```python
 val_loader = torch.utils.data.DataLoader(ImageFolder(testing_data_path, transforms = transform)
 ```
-It should be noted that I use two different ways to input our data (i.e., X and val_loader), The main reason I didn't make it consistent is because I wanted to show you a variety of ways to write it. Hope it doesn't bother you.
+It should be noted that I use two different ways to input our data (i.e., X and val_loader), the main reason I didn't make it consistent is because I wanted to show you a variety of ways to write it. Hope it doesn't bother you.
 
 After you modify all the path, then you can run the following demo code
 ```
