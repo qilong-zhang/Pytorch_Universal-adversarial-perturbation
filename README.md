@@ -33,8 +33,9 @@ After you modify all the path, then you can run the following demo code
 python search.py
 ```
 
-### Result
+# Result
 
+I tested my code for `googlenet` and `resnet-152` with `$\epsilon = 10$`  
 I tested our code for `googlenet` , and with `epsilon=10` (`L_\inf`), our accuracy on the validation set was ~78%.  It is similar with the result report in paper.
 
 ![paper_result](paper_result.png)
