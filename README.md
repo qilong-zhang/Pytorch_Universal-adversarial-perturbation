@@ -12,9 +12,9 @@ A PyTorch implementation of universal adversarial perturbation which is more eas
 
 All you need to do is unzip the downloaded file, and the results are as follows:
 
-![data_list](https://github.com/qilong-zhang/Pytorch_Universal-adversarial-perturbation/readme_img/data_list.png)
+![](readme_img/data_list.png)
 
-![img_list](img_list.png)
+![](readme_img/img_list.png)
 
 ### Get started
 
@@ -37,7 +37,7 @@ python search.py
 
 I tested my code for `googlenet` and `resnet-152` with `\epsilon = 10` (L_inf norm), and after 5 epoch, the result accuracy on validation set was ~78% and ~84% respectively. It is similar with the result report in paper.
 
-![paper_result](paper_result.png)
+![](readme_img/paper_result.png)
 
 ## Reference
 
