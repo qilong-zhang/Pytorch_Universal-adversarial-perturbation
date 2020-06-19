@@ -12,7 +12,7 @@ A PyTorch implementation of universal adversarial perturbation which is more eas
 
 All you need to do is unzip the downloaded file, and the results are as follows:
 
-![data_list](data_list.png)
+![data_list](https://github.com/qilong-zhang/Pytorch_Universal-adversarial-perturbation/tree/master/readme_img/data_list.png)
 
 ![img_list](img_list.png)
 
