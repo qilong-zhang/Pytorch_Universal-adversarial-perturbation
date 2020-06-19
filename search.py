@@ -12,8 +12,8 @@ import torch
 
 
 epsilon = 10.0 / 255.0
-training_data_path = ''
-testing_data_path = ''
+training_data_path = 'input your path (e.g., '../data/ILSVRC2012_train/pick_image/')'
+testing_data_path = 'input your path'
 mean = [0.485, 0.456, 0.406]
 std = [0.229, 0.224, 0.225]
 # std = [1.0, 1.0, 1.0]
@@ -26,7 +26,7 @@ transform = transforms.Compose([
 
 
 print('loader data')
-X = ImagetNet('../data/ILSVRC2012_train/pick_image/', 1000, 10, transforms = transform)
+X = ImagetNet(training_data_path, 1000, 10, transforms = transform)
 
 # X = torch.utils.data.DataLoader(
 #     ImageFolder(training_data_path, transforms.Compose([
