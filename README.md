@@ -35,8 +35,7 @@ python search.py
 
 # Result
 
-I tested my code for `googlenet` and `resnet-152` with `$\epsilon = 10$`  
-I tested our code for `googlenet` , and with `epsilon=10` (`L_\inf`), our accuracy on the validation set was ~78%.  It is similar with the result report in paper.
+I tested my code for `googlenet` and `resnet-152` with `\epsilon = 10` (L_inf norm), and after 5 epoch, the result accuracy on validation set was ~78% and ~84% respectively. It is similar with the result report in paper.
 
 ![paper_result](paper_result.png)
 
