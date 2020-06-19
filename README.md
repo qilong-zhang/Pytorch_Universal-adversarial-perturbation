@@ -18,11 +18,11 @@ All you need to do is unzip the downloaded file, and the results are as follows:
 
 ### Get started
 
-To get started, you should first Change the training data file path to yours. For example
+To get started, you should first Change the training data file path (in `search.py`) to yours. For example
 ```python
 X = ImagetNet('../data/ILSVRC2012_train/pick_image/', 1000, 10, transforms = transform)
 ```
-If your testing data path is `testing_data_path`, then you should write
+If your testing data path (in `search.py`) is `testing_data_path`, then you should write
 ```python
 val_loader = torch.utils.data.DataLoader(ImageFolder(testing_data_path, transforms = transform)
 ```
