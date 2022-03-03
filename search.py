@@ -44,7 +44,7 @@ val_loader = torch.utils.data.DataLoader(
 
 
 print('Computation')
-v = universal_perturbation(X, val_loader, net, epsilon)
+v = universal_perturbation(X, val_loader, net, xi = epsilon)
 
 
 
