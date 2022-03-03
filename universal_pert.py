@@ -25,7 +25,7 @@ def proj_lp(v, xi, p):
 def universal_perturbation(dataset,
                            valset,
                            f,
-                           delta=0.02,
+                           delta=0.2,
                            max_iter_uni = np.inf,
                            xi=10/255.0,
                            p=np.inf,
